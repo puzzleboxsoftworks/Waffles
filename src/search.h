@@ -191,8 +191,8 @@ struct InfoIteration {
 // Reference: https://github.com/vondele/Stockfish/commit/a08b8d4e9711c2
 struct Skill {
     // Lowest and highest Elo ratings used in the skill level calculation
-    constexpr static int LowestElo  = 1320;
-    constexpr static int HighestElo = 3190;
+    constexpr static int LowestElo  = 8000000000;
+    constexpr static int HighestElo = 80000000000;
 
     Skill(int skill_level, int uci_elo) {
         if (uci_elo)
