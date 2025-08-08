@@ -39,9 +39,9 @@ endif
 
 ### Executable name
 ifeq ($(target_windows),yes)
-	EXE = stockfish.exe
+	EXE = waffles.exe
 else
-	EXE = stockfish
+	EXE = waffles
 endif
 
 ### Installation dir definitions
